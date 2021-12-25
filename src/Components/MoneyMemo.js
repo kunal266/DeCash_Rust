@@ -50,7 +50,7 @@ const MoneyMemo = (props) => {
   };
 
   return (
-    <Card style={{ marginTop: "3vh" }}>
+    <Card style={{ marginTop: "3vh",minHeight:"100vh" }}>
       <Card.Body>
         <Card.Title>Send NEAR</Card.Title>
         <Form>
